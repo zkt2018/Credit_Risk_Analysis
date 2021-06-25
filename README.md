@@ -9,72 +9,73 @@ For all the *supervised learning* methods we used during this project, we follow
 * Depending on the model, part/all of the data is analyzed by the model to find and build a pattern
 * The model then can make predictions on new data using the patterns.
 
+Here is brief description of the main three terms we have considered during this analysis:
 - *Accuracy* score shows how well the model has predicted comparing the tested data with the pattern’s result.
 - *Precision* tells us what percentage of True cases are actually true.
 - *Sensitivity/recall* tells us what percentage of the True cases have truly and correctly been predicted.
 
 1. Naive Random Oversampling
-	- Accuracy: %65 ; 
-	- High-Risk 
-		a. Precision: 0.01
+	- Accuracy: %65; 
+	- High-Risk: 
+		a. Precision: 0.01;
 		b. Recall: 0.70
-	- Low-Risk
-		a. Precision: 1.00
+	- Low-Risk:
+		a. Precision: 1.00;
 		b. Recall: 0.60
 
 ![imbal_classif_report_random_oversamp.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/imbal_classif_report_random_oversamp.png)
 
 2. SMOTE Oversampling
-	- Accuracy: %66 ; 
-	- High-Risk 
-		a. Precision: 0.01
+	- Accuracy: %66; 
+	- High-Risk:
+		a. Precision: 0.01;
 		b. Recall: 0.63
-	- Low-Risk
-		a. Precision: 1.00
+	- Low-Risk:
+		a. Precision: 1.00;
 		b. Recall: 0.69
 
 ![imbal_classif_report_smote.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/imbal_classif_report_smote.png)
 
 3. Cluster Centroid Undersampling
 	- Accuracy: %54; 
-	- High-Risk 
-		a. Precision: 0.01
+	- High-Risk: 
+		a. Precision: 0.01;
 		b. Recall: 0.69
-	- Low-Risk
-		a. Precision: 1.00
+	- Low-Risk:
+		a. Precision: 1.00;
 		b. Recall: 0.40
 
 ![imbal_classif_report_under_samp.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/imbal_classif_report_under_samp.png)
 
 4. Combination Sampling With SMOTEENN
 	- Accuracy: %64; 
-	- High-Risk 
-		a. Precision: 0.01
+	- High-Risk:
+		a. Precision: 0.01;
 		b. Recall: 0.72
-	- Low-Risk
-		a. Precision: 1.00
+	- Low-Risk:
+		a. Precision: 1.00;
 		b. Recall: 0.57
 
 ![imbal_classif_report_smoteenn.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/imbal_classif_report_smoteenn.png)
 
 5. Balanced Random Forest Classifier
 	- Accuracy: %87; 
-	- High-Risk 
-		a. Precision: 0.03
+	- High-Risk: 
+		a. Precision: 0.03;
 		b. Recall: 0.70
-	- Low-Risk
-		a. Precision: 1.00
+	- Low-Risk:
+		a. Precision: 1.00;
 		b. Recall: 0.87
 
-[balanced_random_forest_classifier.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/balanced_random_forest_classifier.png)
+![balanced_random_forest_classifier.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/balanced_random_forest_classifier.png)
 
 6. Easy Ensemble AdaBoost Classifier
 	- Accuracy: %94; 
-	- High-Risk 
-		a. Precision: 0.09
+	- High-Risk: 
+		a. Precision: 0.09;
 		b. Recall: 0.92
-	- Low-Risk
-		a. Precision: 1.00
+	- Low-Risk:
+		a. Precision: 1.00;
 		b. Recall: 0.94
 
 ![easy_ensemble_report.png](https://github.com/zkt2018/Credit_Risk_Analysis/blob/main/resources/easy_ensemble_report.png)
