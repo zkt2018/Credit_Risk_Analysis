@@ -1,9 +1,9 @@
-#**Credit_Risk_Analysis**
+# **Credit_Risk_Analysis**
 
-##**Overview of the analysis**
+## **Overview of the analysis**
 Through the Credit Risk Analysis project, different models and algorithms of Machine Learning are used to assess data and assist with planning for loan programs in Fast lending which is a peer to peer lending services organization. Applying a variety of machine learning tools, we are looking for the best practice to provide the most accurate and correct results in terms of eligibility of the candidates. Our focus in this project, has been specifically on *supervised learning* Classification model. Using the models created by the algorithms, the patterns are built which can help us to make predictions on new data.
 
-##**Results**
+## **Results**
 For all the *supervised learning* methods we used during this project, we followed through three basic steps for each method:
 * A machine learning model and a dataset were selected
 * Depending on the model, part/all of the data is analyzed by the model to find and build a pattern
@@ -83,5 +83,5 @@ Here is brief description of the main three terms we have considered during this
 Among all methods and models we have used through this project, although the accuracy score is over %60 for 5 out of the models, the percentage of predicting the high risk applications is very low among all the six models.
 The accuracy score has been the least when creating the pattern using the *Cluster Centroid Undersampling* which is pretty similar to *synthetic minority oversampling technique (SMOTE)* model. This model is an underampling approach to decrease the majority group instances. This algorithm generates synthetic data points (centroids) selected among the majority class clusters. Then, it undersamples the majority class down to the size of the samples from the minority class.
  
-##**Summary**
+## **Summary**
 Comparing all the six models together, it seems *Easy Ensemble AdaBoost Classifier* has given the highest accuracy, precision and recall percentages in both high-risk and low risk categories. And, even though the precision of the high-risk category is still very low in this model as well as the other ones, we can employ *Easy Ensemble AdaBoost Classifier* and analyse the data based on the recall or sensitivity.
